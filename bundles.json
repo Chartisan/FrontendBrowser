@@ -4,5 +4,12 @@
         "output": "dist/chartisan_x.js",
         "external": [],
         "globals": {}
+    },
+    {
+        "input": "src/index.ts",
+        "output": "dist/chartisan_x.es.js",
+        "format": "es",
+        "external": [],
+        "globals": {}
     }
 ]

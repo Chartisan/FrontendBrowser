@@ -5,6 +5,7 @@
     "author": "Èrik Campobadal Forés <soc@erik.cat>",
     "license": "MIT",
     "main": "dist/chartisan_x.js",
+    "module": "dist/chartisan_x.es.js",
     "source": "src/index.ts",
     "types": "dist/index.d.ts",
     "repository": {
@@ -32,10 +33,10 @@
     ],
     "devDependencies": {
         "typescript": "^3.7.3",
-        "ultrabundle": "^0.1.0",
+        "ultrabundle": "^1.0.2",
         "typedoc": "^0.16.5"
     },
     "dependencies": {
-        "@chartisan/chartisan": "file:../chartisan"
+        "@chartisan/chartisan": "^1.0.7"
     }
 }
