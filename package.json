@@ -7,7 +7,7 @@
     "main": "dist/chartisan_x.js",
     "module": "dist/chartisan_x.es.js",
     "source": "src/index.ts",
-    "types": "dist/index.d.ts",
+    "types": "dist/types/index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/chartisan/chartjs.git"
@@ -20,7 +20,8 @@
         "release": "npm run prod && npm run docs"
     },
     "files": [
-        "dist"
+        "dist",
+        "dist/types/index.d.ts"
     ],
     "keywords": [
         "Chart",
@@ -37,6 +38,6 @@
         "typedoc": "^0.16.5"
     },
     "dependencies": {
-        "@chartisan/chartisan": "^1.0.7"
+        "@chartisan/chartisan": "^1.1.0"
     }
 }
